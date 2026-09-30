@@ -1,7 +1,7 @@
 const { configure } = require('quasar/wrappers')
 
 module.exports = configure(() => ({
-  boot: ['pinia'],
+  boot: ['pinia', 'pwa'],
   css: ['app.scss'],
   extras: ['material-icons'],
   framework: {
